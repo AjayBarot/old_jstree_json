@@ -1,0 +1,13 @@
+<h3>Using the ajax config option</h3>
+<div id="demo2" class="demo"></div>
+
+<script type="text/javascript" class="source">
+
+$("#demo2").jstree({
+  "json_data" : {
+		"ajax" : { "url" : "/homes/jstree" }
+  },
+  "plugins" : [ "themes", "json_data" ]
+});
+
+</script>
